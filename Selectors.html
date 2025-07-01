@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--internal css-->
+    <style>
+        /*universal selector => *{} */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        /*id selector*/
+        #id1 {
+           /* //property: value; */
+           color: royalblue;
+           background-color: lightsalmon;
+        }
+        #id2 {
+            color: red;
+            background-color: lightgreen;
+            text-align: center;
+        }
+        /* class selector => .classvalue{} */
+        .c1 {
+            color: green;
+            background-color: lightyellow;
+            text-align: center;
+        }
+        .c2{
+            text-align: center;
+        }
+        span{
+            background-color: yellow;
+            width: 200px;
+            display: block;
+        }
+        h4{
+            color: blue;
+            background-color: lightgray;
+            text-align: center;
+        }
+        h1,#group,.cg{
+            color: darkblue;
+            background-color: lightcoral;
+            text-align: center;
+        }
+        .g{
+            background-color: orange;
+        }
+        #g1{
+          background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <!--selector :: its pattern used for select an element-->
+    <!--simplesector : id, class , tag/element, groupselector, universal selector-->
+    <!--id: should be unique in entire html Document-->
+    <h1 id="id1">Simple Selectors</h1>
+    <h3 id="id2">simpleSelector - 1</h3>
+    <!--class selector: Reuseability code maintaible, easy to overwrite-->
+    <p class="c1 c2">Class selector</p>
+    <h5 class="c2"> okay google</h5>
+    <!--Tag selector / element selector-->
+    <span>
+        <span>Tag selector</span>
+        <span>Element selector</span>
+        <h4>hey gemini</h4>
+    </span>
+    <!--group selector : combination of multiple selector(id, class tag/element)-->
+    <h1>Group_selector</h1>
+    <h5 id="group"></h5>
+    <section class="cg">Group_selector</section>
+
+    <i class="g" id="g1">Guess the answer</i>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   div>p{
+    color: blue;
+   }
+   div p{
+    color: green;
+   }
+   <!--discendent only-->
+   div .text{
+    background-color: lightcoral;
+   }
+   div + p{
+    background-color: lightgreen;
+   }
+</style>
+<body>
+    <!--combinators: describe the relationship b/w selector-->
+    <div class="parent" id="p"><!--parent element-->
+        <p>Child Element</p><!--child element-->
+        <p>child element 2</p>
+        <section><!--child selector-->
+            <p class="text">sub-child</p><!--child of section and grand child of div descendant-->
+        </section>
+        
+    </div>
+    <p>okay google</p>
+    <b>general siblings</b>
+    <h4>im sibu</h4>
+
+</body>
+</html>

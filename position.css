@@ -1,0 +1,52 @@
+.static{
+    border: 2px solid red;
+    width: 100px;
+    padding: 2px;
+    /* position: static; default , top,bottom left right */
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+.relative{
+     border: 2px solid blue;
+    width: 100px;
+    padding: 2px;
+}
+.absolute{
+    position: absolute;
+    border: 2px solid red;
+    width: 100px;
+    padding: 2px;
+}
+.fixed{
+    border: 2px solid red;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: yellow;
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+}
+.profile{
+    border: 2px solid green;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    z-index: 100;
+}
+.navbar{
+    border: 2px solid orange;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}

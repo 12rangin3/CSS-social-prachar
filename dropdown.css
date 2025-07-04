@@ -1,0 +1,81 @@
+.profile{
+
+position: relative;
+}
+
+
+
+.profile-image{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.nav-lin:hover{
+    color: orange;
+}
+.dropdown{
+background-color: aquamarine;
+width: 150px;
+border-radius: 10px;
+position: absolute;
+top: 17px;
+left: 27px;
+display: none;
+}
+.Profile:hover .dropdown{
+display: block;
+}
+.dropdown .nav-link:hover {
+    background-color: #ffd700;
+}
+
+
+.subdropdown{
+position: relative;
+}
+.subdropdown-menu{
+    background-color: yellow;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    display: none;
+    
+}
+.subdropdown:hover .subdropdown-menu{
+    display: block;
+}
+.subdropdown_2{
+    position: relative;
+}
+.subdropdown-2-menu {
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    width: 100px;
+    top: 10px;
+    display: none;
+}
+.subdropdown_2:hover .subdropdown-2-menu{
+    display: block;
+}
+.subdropdown-3{
+    position: relative;
+}
+.subdropdown-3-menu{
+    background-color: orange;
+    position: absolute;
+    width: 100px;
+    left: 100px;
+    top: 10px;
+    display: none;
+}
+.subdropdown-3:hover .subdropdown-3-menu{
+    display: block;
+}
